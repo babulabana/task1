@@ -1,0 +1,1 @@
+export const API_URL = "http://20.193.149.47:2242/salons/service/"
