@@ -64,6 +64,8 @@ function App() {
       <Route path='/task3' element={<Task3></Task3>}></Route>
     </Routes>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js" ></script>
    </>
   )
 }
