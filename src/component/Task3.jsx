@@ -42,7 +42,7 @@ export default function Task3() {
 
   return (
     <div className='flex lg:flex-row flex-col items-center m-20 gap-20'>
-      <div className='w-1/2'>
+      <div className='lg:w-1/2'>
         <form onSubmit={handleSubmit} className='flex flex-col  border-2 p-10 text-xl'>
           <label>Spa name:</label>
           <input type="text" name="spa" placeholder='Enter the Spa name' className='border-2 p-1 mb-5' value={formData.spa} onChange={handleChange} />
@@ -66,7 +66,7 @@ export default function Task3() {
         </form>
       </div>
 
-      <div className='w-1/2 mt-10'>
+      <div className='lg:w-1/2 mt-10'>
         <h2 className='text-2xl font-bold mb-5'>All Submissions:</h2>
         {allSubmissions.map((data, index) => (
           <div key={index} className='border-2 p-5 mb-10 rounded'>
